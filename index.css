@@ -43,3 +43,24 @@ body {
       }
 }
   
+#whatsapp-button {
+  border-bottom-left-radius: 0;
+  padding: 1% 1.5%;
+  background-color: #28d464;
+  position: fixed;
+  right: -3px; /* Adjust this value to position the button as per your preference */
+  bottom: 50%; /* Adjust this value to position the button vertically */
+  z-index: 9999;
+  border: none;
+}
+
+#phone-button {
+  border-top-left-radius: 0;
+  padding: 1% 1.4%;
+  background-color: #083484;
+  position: fixed;
+  right: -3px; /* Adjust this value to position the button as per your preference */
+  bottom: 42%; /* Adjust this value to position the button vertically */
+  z-index: 9999;
+  border: none;
+}
