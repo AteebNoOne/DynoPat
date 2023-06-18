@@ -1,0 +1,45 @@
+/* index.css */
+
+/* Add your desired styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  iframe {
+    display: block;
+    width: 100%;
+    height: 600px;
+    border: none;
+  }
+
+  .slider {
+    display: block;
+    width: 100%;
+    height: 600px;
+    border: none;
+  }
+
+  .body1{
+    margin-top: 5%;
+    display: block;
+    width: 100%;
+    height: 600px;
+    border: none;
+  }
+
+    /* Styles for media when displayed as half screen */
+@media screen and (max-width: 768px) {
+    
+    iframe {
+        width: 100%;
+        height: 600px;
+      }
+
+      .body1{
+        height: 800px;
+      }
+}
+  

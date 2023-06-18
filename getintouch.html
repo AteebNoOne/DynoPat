@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="getintouch.css">
+</head>
+<body>
+  <h1>Get In Touch</h1>
+  <h3>Do you have anything to ask regarding our Salesforce Training? Fill in the form below:</h3>
+  <form action="submit_form.php" method="POST">
+    <div class="container">
+      <div class="left-fields">
+        <input type="text" id="fullname" name="fullname" placeholder="Full Name*" required>
+        <input type="email" id="email" name="email" placeholder="Email Address*" required>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number*" required>
+      </div>
+      <div class="right-field">
+        <textarea placeholder="Your Message..." id="message" name="message" rows="5" cols="30"></textarea>
+      </div>
+    </div>
+    <div class="center-feild">
+        <button type="submit" >SEND MESSAGE</button>
+    </div>
+  </form>
+  
+</body>
+</html>
