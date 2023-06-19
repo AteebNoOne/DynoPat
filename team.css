@@ -1,0 +1,68 @@
+body {
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+}
+
+.team-member {
+    width: 25%;
+    text-align: center;
+    margin: 20px;
+}
+
+.team-image {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #fda402;
+    /* Add a yellow stroke */
+    border-radius: 50%;
+    /* Make it a circle */
+}
+
+.team-heading {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.team-subheading {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #0a070244;
+}
+
+.team-line {
+    border: 2px solid black;
+    margin: 20px 0;
+}
+
+.team-description {
+    margin: 10px 0;
+    color: #0a070270;
+    font-style: bolder;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 36px;
+    width: 100%;
+}
+
+/* Styles for media when displayed as half screen */
+@media screen and (max-width: 768px) {
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .team-member {
+      width: 100%;
+    }
+  }
