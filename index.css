@@ -29,15 +29,6 @@ iframe {
   height: 600px;
   border: none;
 }
-
-.team {
-  margin-top: 5%;
-  display: block;
-  width: 100%;
-  height: 800px;
-  border: none;
-}
-
 #whatsapp-button {
   border-bottom-left-radius: 0;
   padding: 1% 1.5%;
@@ -77,7 +68,8 @@ iframe {
     height: 800px;
   }
 
-  .team ::after{
-    height: 1800px; /* Set the height to 100% */
+  #whatsapp-button,
+  #phone-button {
+    display: none;
   }
 }
